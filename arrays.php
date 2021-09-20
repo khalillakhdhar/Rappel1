@@ -9,6 +9,16 @@ for($x=0;$x<$arrlength;$x++)
         echo "<br>";
     }
 }
-
-
+?>
+<?php
+$numbers =array(14,61,12,202,11);
+sort($numbers);
+for($y=0;$y<count($numbers);$y++)
+{
+if($numbers[$y]%2==0)
+{
+    echo $numbers[$y];
+    echo "<br>";
+}
+}
 ?>
