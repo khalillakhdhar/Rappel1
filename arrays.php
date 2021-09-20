@@ -11,8 +11,7 @@ for($x=0;$x<$arrlength;$x++)
 }
 ?>
 <?php
-$numbers =array(14,61,12,202,11);
-sort($numbers);
+$numbers=array(14,61,12,202,11);
 for($y=0;$y<count($numbers);$y++)
 {
 if($numbers[$y]%2==0)
